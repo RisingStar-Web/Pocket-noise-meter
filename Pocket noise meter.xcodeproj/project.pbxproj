@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E63647CA22424906002EAC48 /* round-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E63647C922424906002EAC48 /* round-logo.png */; };
+		E66A797C22285C8F009505FA /* pause-play-button.png in Resources */ = {isa = PBXBuildFile; fileRef = E66A797B22285C8F009505FA /* pause-play-button.png */; };
+		E66A797F22287AA3009505FA /* reload.png in Resources */ = {isa = PBXBuildFile; fileRef = E66A797E22287AA3009505FA /* reload.png */; };
+		E66A798122287E2A009505FA /* round2.png in Resources */ = {isa = PBXBuildFile; fileRef = E66A798022287E29009505FA /* round2.png */; };
+		E6E4025C2225CA6300214CFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E4025B2225CA6300214CFC /* AppDelegate.m */; };
+		E6E4025F2225CA6300214CFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E4025E2225CA6300214CFC /* ViewController.m */; };
+		E6E402622225CA6300214CFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E402602225CA6300214CFC /* Main.storyboard */; };
+		E6E402642225CA6500214CFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6E402632225CA6500214CFC /* Assets.xcassets */; };
+		E6E402672225CA6500214CFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E402652225CA6500214CFC /* LaunchScreen.storyboard */; };
+		E6E4026A2225CA6500214CFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E402692225CA6500214CFC /* main.m */; };
+		E6E402762225CDD400214CFC /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E402752225CDD400214CFC /* CoreAudio.framework */; };
+		E6E402782225CDDA00214CFC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E402772225CDDA00214CFC /* AVFoundation.framework */; };
+		E6E4027B2225DA3600214CFC /* CircleProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E4027A2225DA3600214CFC /* CircleProgressBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E63647C922424906002EAC48 /* round-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "round-logo.png"; sourceTree = "<group>"; };
+		E66A797B22285C8F009505FA /* pause-play-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause-play-button.png"; sourceTree = "<group>"; };
+		E66A797E22287AA3009505FA /* reload.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reload.png; sourceTree = "<group>"; };
+		E66A798022287E29009505FA /* round2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = round2.png; sourceTree = "<group>"; };
+		E6E402572225CA6300214CFC /* Pocket noise meter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket noise meter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6E4025A2225CA6300214CFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6E4025B2225CA6300214CFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6E4025D2225CA6300214CFC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E6E4025E2225CA6300214CFC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E6E402612225CA6300214CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6E402632225CA6500214CFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6E402662225CA6500214CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6E402682225CA6500214CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6E402692225CA6500214CFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6E402752225CDD400214CFC /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		E6E402772225CDDA00214CFC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E6E402792225DA3600214CFC /* CircleProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressBar.h; sourceTree = "<group>"; };
+		E6E4027A2225DA3600214CFC /* CircleProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6E402542225CA6300214CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E402782225CDDA00214CFC /* AVFoundation.framework in Frameworks */,
+				E6E402762225CDD400214CFC /* CoreAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6E4024E2225CA6300214CFC = {
+			isa = PBXGroup;
+			children = (
+				E6E402592225CA6300214CFC /* SoundLevelMeter */,
+				E6E402582225CA6300214CFC /* Products */,
+				E6E402742225CDD400214CFC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E6E402582225CA6300214CFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6E402572225CA6300214CFC /* Pocket noise meter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6E402592225CA6300214CFC /* SoundLevelMeter */ = {
+			isa = PBXGroup;
+			children = (
+				E6E402792225DA3600214CFC /* CircleProgressBar.h */,
+				E6E4027A2225DA3600214CFC /* CircleProgressBar.m */,
+				E6E4025A2225CA6300214CFC /* AppDelegate.h */,
+				E6E4025B2225CA6300214CFC /* AppDelegate.m */,
+				E6E4025D2225CA6300214CFC /* ViewController.h */,
+				E6E4025E2225CA6300214CFC /* ViewController.m */,
+				E6E402602225CA6300214CFC /* Main.storyboard */,
+				E6E402632225CA6500214CFC /* Assets.xcassets */,
+				E6E402652225CA6500214CFC /* LaunchScreen.storyboard */,
+				E6E402682225CA6500214CFC /* Info.plist */,
+				E6E402692225CA6500214CFC /* main.m */,
+				E66A797B22285C8F009505FA /* pause-play-button.png */,
+				E66A797E22287AA3009505FA /* reload.png */,
+				E66A798022287E29009505FA /* round2.png */,
+				E63647C922424906002EAC48 /* round-logo.png */,
+			);
+			path = SoundLevelMeter;
+			sourceTree = "<group>";
+		};
+		E6E402742225CDD400214CFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6E402772225CDDA00214CFC /* AVFoundation.framework */,
+				E6E402752225CDD400214CFC /* CoreAudio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6E402562225CA6300214CFC /* Pocket noise meter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6E4026D2225CA6500214CFC /* Build configuration list for PBXNativeTarget "Pocket noise meter" */;
+			buildPhases = (
+				E6E402532225CA6300214CFC /* Sources */,
+				E6E402542225CA6300214CFC /* Frameworks */,
+				E6E402552225CA6300214CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pocket noise meter";
+			productName = SoundLevelMeter;
+			productReference = E6E402572225CA6300214CFC /* Pocket noise meter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6E4024F2225CA6300214CFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Андрей Зябкин";
+				TargetAttributes = {
+					E6E402562225CA6300214CFC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = E6E402522225CA6300214CFC /* Build configuration list for PBXProject "Pocket noise meter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6E4024E2225CA6300214CFC;
+			productRefGroup = E6E402582225CA6300214CFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6E402562225CA6300214CFC /* Pocket noise meter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6E402552225CA6300214CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E66A798122287E2A009505FA /* round2.png in Resources */,
+				E6E402672225CA6500214CFC /* LaunchScreen.storyboard in Resources */,
+				E6E402642225CA6500214CFC /* Assets.xcassets in Resources */,
+				E66A797C22285C8F009505FA /* pause-play-button.png in Resources */,
+				E63647CA22424906002EAC48 /* round-logo.png in Resources */,
+				E6E402622225CA6300214CFC /* Main.storyboard in Resources */,
+				E66A797F22287AA3009505FA /* reload.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6E402532225CA6300214CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E4025F2225CA6300214CFC /* ViewController.m in Sources */,
+				E6E4026A2225CA6500214CFC /* main.m in Sources */,
+				E6E4025C2225CA6300214CFC /* AppDelegate.m in Sources */,
+				E6E4027B2225DA3600214CFC /* CircleProgressBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6E402602225CA6300214CFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6E402612225CA6300214CFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6E402652225CA6500214CFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6E402662225CA6500214CFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6E4026B2225CA6500214CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6E4026C2225CA6500214CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6E4026E2225CA6500214CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9J67HHS96G;
+				INFOPLIST_FILE = SoundLevelMeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abdulinstan.Noize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E6E4026F2225CA6500214CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9J67HHS96G;
+				INFOPLIST_FILE = SoundLevelMeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abdulinstan.Noize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6E402522225CA6300214CFC /* Build configuration list for PBXProject "Pocket noise meter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E4026B2225CA6500214CFC /* Debug */,
+				E6E4026C2225CA6500214CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6E4026D2225CA6500214CFC /* Build configuration list for PBXNativeTarget "Pocket noise meter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6E4026E2225CA6500214CFC /* Debug */,
+				E6E4026F2225CA6500214CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6E4024F2225CA6300214CFC /* Project object */;
+}
